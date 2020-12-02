@@ -1,11 +1,8 @@
 import React from 'react';
 
-function Header(){
-    
-
-
+function Header({titulo}){
     return(
-            <h1 id="encabezado" className="encabezado" >Freyja Studios</h1>
+    <h1 id="encabezado" className="encabezado" >{titulo}</h1>
     )
 }
 
