@@ -1,0 +1,31 @@
+body {
+    /* background-color: #272828; */
+    background-color: #f8f9fa;
+}
+
+#central h1 {
+    text-shadow: 2px 2px 5px #fff;
+}
+
+#central p {
+    text-shadow: 2px 2px 5px #fff;
+}
+
+@media (min-width: 768px) {
+    #central {
+        top: 30%;
+    }
+
+    #central h1 {
+        font-size: 5.5em;
+    }
+
+    #central p {
+        font-size: 1.5em;
+    }
+}
+
+.redesSociales {
+    width: 50;
+    height: 50px;
+}
